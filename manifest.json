@@ -1,0 +1,20 @@
+{
+  "manifest_version": "1",
+  "api_version": "1",
+  "name": "KeePass",
+  "description": "password manager",
+  "developer_name": "iyim",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.7
+  },
+  "preferences": [
+    {
+      "id": "key",
+      "type": "keyword",
+      "name": "keepass",
+      "description": "password manager",
+      "default_value": "p"
+    }
+  ]
+}
